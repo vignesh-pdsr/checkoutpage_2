@@ -1,0 +1,40 @@
+.container-fluid{
+    background: rgb(238,174,202);
+    background: radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(148,187,233,1) 100%);
+    color: #FAE5FA;
+}
+img{
+    border-radius: 20%;
+    margin: 10px 0px;
+    animation: flip;
+    animation-duration: 20s;
+    animation-delay: 0.5;
+}
+input, label{
+    width: 100%;
+}
+input{
+    border: none;
+    border-bottom: 2px solid #8F2D62;
+    background-color: transparent;
+    animation: zoomIn;
+    animation-duration: 3s;
+}
+form{
+    background-color:#392454;
+    border-radius: 10px;
+}
+.button1{
+    width: 100%;
+    color: white;
+    background-color: #CE3A81;
+    border: none;
+    border-radius: 10px;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+    animation: hinge;
+    animation-duration: 6s;
+}
+input[type="checkbox"]{
+    animation:fadeInDown;
+    animation-duration: 10s;
+}
